@@ -1,0 +1,11 @@
+html{
+    max-width: 100%;
+    font-size: 15px;
+}
+
+main{
+    height: auto;
+    margin-top: 5%;
+    background-color: #f9f9f9;
+    display: flex;
+}
