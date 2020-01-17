@@ -1,0 +1,303 @@
+html {
+  width: 100%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: #0d63c5;
+  text-decoration: none;
+}
+main {
+  height: auto;
+  top: 60px;
+  position: relative;
+  display: flex;
+}
+header {
+  position: fixed;
+  background: #ffffff;
+  width: 100%;
+  z-index: 1500000;
+}
+.no-margin {
+  margin: 0;
+}
+.no-padding {
+  padding: 0;
+}
+.bold {
+  font-weight: 700;
+}
+.no-bold {
+  font-weight: 100;
+}
+.image {
+  margin: 0;
+  padding: 0;
+}
+.image img {
+  width: 100%;
+  height: auto;
+}
+.container {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  max-width: 1350px;
+}
+.aside-list {
+  margin: 0;
+  float: left;
+  width: 20%;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+.navbar {
+  width: 100%;
+  padding: 10px 0;
+  margin: 0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+.left-nav,
+.grab-search,
+.right-nav {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.left-nav {
+  position: relative;
+}
+.left-nav img {
+  float: left;
+  height: auto;
+  max-width: 120px;
+}
+.btn-nav {
+  float: left;
+  border: none;
+  position: relative;
+  top: 0px;
+  margin: 0 7px;
+  font-size: 20px;
+  color: #4e4e4e;
+  background: none;
+}
+.search {
+  float: left;
+  width: 100%;
+  padding: 0;
+  border: 1px solid #cdcdcd;
+}
+.search input {
+  border: none;
+  width: 76%;
+  padding: 5px 2%;
+  float: left;
+  font-size: 18px;
+}
+.search button {
+  border: none;
+  padding: 5px 0;
+  width: 18%;
+  border-left: 1px solid #cdcdcd;
+  float: left;
+  font-size: 14px;
+  cursor: pointer;
+}
+.right-nav span {
+  margin: 7px 10px;
+}
+.right-nav i {
+  font-size: 18px;
+  color: #424242;
+}
+
+.iframe {
+  margin: 0;
+  width: 100%;
+}
+
+.iframe .video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe .video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0
+}
+
+.iframe h1 {
+  font-weight: 100 !important;
+  font-size: 22px;
+}
+.iframe .stats {
+  margin: 5px 0;
+  float: left;
+  width: 50%;
+  font-size: 14px;
+  color: #868686;
+}
+.iframe .icons {
+  margin: 5px 0;
+  float: left;
+  width: 50%;
+  font-size: 16px;
+  color: #868686;
+}
+.iframe .icons span {
+  padding: 10px 15px;
+}
+.grab-video-info {
+  margin: 15px 0;
+  padding: 15px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.row {
+  margin: 5px 0;
+  padding: 1%;
+  width: 98%;
+  clear: both;
+}
+.col-10 {
+  width: 9%;
+  padding: 0 0.5%;
+  float: left;
+}
+.col-20 {
+  width: 18%;
+  padding: 0 1%;
+  float: left;
+}
+.col-30 {
+  width: 28%;
+  padding: 0 1%;
+  float: left;
+}
+.col-40 {
+  width: 38%;
+  padding: 0 1%;
+  float: left;
+}
+.col-50 {
+  width: 48%;
+  padding: 0 1%;
+  float: left;
+}
+.col-60 {
+  width: 58%;
+  padding: 0 1%;
+  float: left;
+}
+.col-70 {
+  width: 68%;
+  padding: 0 1%;
+  float: left;
+}
+.col-80 {
+  width: 78%;
+  padding: 0 1%;
+  float: left;
+}
+.col-90 {
+  width: 88%;
+  padding: 0 1%;
+  float: left;
+}
+
+.sb-tn {
+  border: none;
+  padding: 12px 22px;
+  background: #d81919;
+  color: #ffffff;
+  font-size: 14px;
+}
+.play-list {
+  padding-bottom: 25px;
+}
+.account-bio {
+  font-size: 14px;
+  color: #686868;
+}
+.description {
+  font-weight: 100;
+  color: #8f8f8f;
+  font-size: 13px;
+}
+.description div {
+  padding: 2px 0;
+}
+.description h4 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #343434;
+}
+.grab-player,
+.grab-sidebar {
+  float: left;
+  margin: 0;
+  padding: 0 1%;
+}
+@media only screen and (max-width: 750px) {
+  .hide-on-sm {
+    display: none;
+  }
+  .grab-player {
+    width: 98%;
+  }
+  .grab-sidebar {
+    width: 98%;
+  }
+  .left-nav {
+    width: 60%;
+  }
+  .grab-search {
+    display: none;
+    width: 0%;
+  }
+  .right-nav {
+    width: 40%;
+  }
+  .grab-video-info .stats,
+  .grab-video-info .icons {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .hide-on-lg {
+    display: none;
+  }
+  .grab-player {
+    width: 68%;
+  }
+  .grab-sidebar {
+    width: 28%;
+  }
+
+  .left-nav {
+    width: 25%;
+  }
+  .grab-search {
+    width: 50%;
+  }
+  .right-nav {
+    width: 25%;
+  }
+}
